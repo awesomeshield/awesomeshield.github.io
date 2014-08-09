@@ -1,4 +1,4 @@
 awesomeshield.github.io
 =======================
 
-website for the internationally famous awesome shield
+website for the internationally adored awesome shield
