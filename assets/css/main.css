@@ -150,3 +150,12 @@ i {
 	font-weight: 300;
 	letter-spacing: 1px;
 }
+
+
+@media(max-width : 991px) {
+    
+    #headerwrap {
+        padding-top: 40px;
+    }
+
+}
