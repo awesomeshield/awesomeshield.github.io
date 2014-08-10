@@ -116,9 +116,12 @@ a:after {
 
 i {
 	margin: 8px;
-	color: #3498db; 
+	color: #3498db;
 }
 
+.navbar:hover p {
+  color: white !important;
+}
 
 /* HeaderWrap */
 #headerwrap {
@@ -130,7 +133,7 @@ i {
 	background-position: center center;
 	min-height: 650px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -153,7 +156,7 @@ i {
 
 
 @media(max-width : 991px) {
-    
+
     #headerwrap {
         padding-top: 40px;
     }
