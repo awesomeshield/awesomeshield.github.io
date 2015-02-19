@@ -1,6 +1,5 @@
 #!/bin/bash
 
-rm -rf tutorials/*
 for folder in $(ls content/tutorials); do
 	echo "Generating $folder"
 	TITLE=$(cat content/tutorials/${folder}/TITLE)
