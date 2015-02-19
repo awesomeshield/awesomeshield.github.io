@@ -1,4 +1,4 @@
-awesomeshield.github.io
+learn.awesomeshield.com
 =======================
 
-website for the internationally adored awesome shield
+learing section for the internationally adored awesome shield
