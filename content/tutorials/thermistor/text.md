@@ -10,14 +10,14 @@ The thermistor is a simple temperature sensor. It's really a resistor, and it's 
 
 The _check()_ function gets a temperature reading from.
 
-### Inputs
+#### Inputs
 It doesn't take any inputs.
 
-### Returns
+#### Returns
 It returns a _float_, which is the temperature in degrees Celsius.
 
-### Tips
+#### Tips
 Ordinarily, the thermistor checks the air temperature. But it can check other temperatures. For example, if you put your finger on the thermistor, it will read your skin temperature.
 
-### Example
+#### Example
 <iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/sketch:70635" frameborder="0"></iframe>

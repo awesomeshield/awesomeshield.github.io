@@ -10,19 +10,19 @@ LEDs are very efficient lights. LED stands for "Light Emitting Diode". The Aweso
 
 The _turnOn()_ function turns the color LED on.
 
-### Inputs
+#### Inputs
 It needs an input. It can take two type of inputs.
 
-#### Color Names
+##### Color Names
 You can give it a single input, with certain color names written in capitals. For example, _awesome.colorLED.turnOn(GREEN)_ will light the LED up green. The colors you can name are: _WHITE_, _RED_, _GREEN_, _BLUE_, _YELLOW_, _PURPLE_, and _CYAN_.
 
-#### Color Strengths
+##### Color Strengths
 You can give it three inputs, which will be set as the power of the red, green and blue elements inside the color LED. The order of the color strengths is red, green, then blue. For example, _awesome.colorLED.turnOn(100, 0 , 255)_ sets the red element to 100, the green to 0, and the blue to 255. These number inputs are _int_s, and the maximum value is 255.
 
-### Returns
+#### Returns
 It doesn't return any variables.
 
-### Tips
+#### Tips
 
 By using variables that change over time for the color strength inputs, you can make neat projects that fade from one color to the next.
 
@@ -32,14 +32,14 @@ By using variables that change over time for the color strength inputs, you can 
 
 The _turnOff()_ function turns the LED off. This turns off each of the three elements inside the color LED.
 
-### Inputs
+#### Inputs
 It doesn't take any inputs.
 
-### Returns
+#### Returns
 It doesn't return any variables.
 
-### Tips
+#### Tips
 Don't forget to turn your LEDs off when you're done with them. Otherwise you won't notice when you turn them on a second time.
 
-### Example
+#### Example
 <iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/sketch:70635" frameborder="0"></iframe>

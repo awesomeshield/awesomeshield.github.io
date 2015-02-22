@@ -6,18 +6,18 @@ The buzzer is a very simple speaker. It can make a tone for a certain amount of 
 
 ## Functions
 
-### awesome.buzzer.*beep()*
+#### awesome.buzzer.*beep()*
 
 The _beep()_ function makes a tone.
 
-### Inputs
+#### Inputs
 The input is an _int_, which is the length of the tone, in milliseconds. So _awesome.buzzer.beep(1000)_ will beep for one second.
 
-### Returns
+#### Returns
 It doesn't return any variables.
 
-### Tips
+#### Tips
 Beeping is useful in projects where you might not be looking at your Awesome Shield, but need to know when something happens.
 
-### Example
+#### Example
 <iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/sketch:70635" frameborder="0"></iframe>

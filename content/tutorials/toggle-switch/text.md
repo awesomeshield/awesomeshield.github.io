@@ -10,14 +10,14 @@ The toggle switch is a simple switch. When the switch is at the end labelled "on
 
 The _check()_ function checks if the switch is set to "on" or "off".
 
-### Inputs
+#### Inputs
 It doesn't take any inputs.
 
-### Returns
+#### Returns
 It returns an _bool_. This bool is _true_ if the switch is set to "on" and _false_ if it's set to "off".
 
-### Tips
+#### Tips
 The switch is handy when you want to have two different modes that your program runs in. For example, one mode could silence the buzzer. It works really nicely with if().
 
-### Example
+#### Example
 <iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/sketch:70635" frameborder="0"></iframe>
