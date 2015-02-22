@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+
+    <title>Learn Awesome Shield - </title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Fonts from Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
+    
+    <!--HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-md-12">
+<h1 id="light-sensor">Light Sensor</h1>
+<p>The photocell is a simple light sensor. It's really a resistor, and it's resistance changes depending on how much light is shining on it. The Arduino can sense this resistance, and then it uses the Awesome Shield library to calculate the light level.</p>
+<hr />
+<h2 id="functions">Functions</h2>
+<h3 id="awesome.lightsensor.check">awesome.lightSensor.<em>check()</em></h3>
+<p>The <em>check()</em> function gets a light reading from the photocell.</p>
+<h3 id="inputs">Inputs</h3>
+<p>It doesn't take any inputs.</p>
+<h3 id="returns">Returns</h3>
+<p>It returns an <em>int</em>, which is the light level in lux.</p>
+<h3 id="tips">Tips</h3>
+<p>The light level changes depending on how bright the room is, and also how covered up the light sensor is. You can use the light sensor to detect and simple gesture: a hand passing over it.</p>
+<h3 id="example">Example</h3>
+<iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/sketch:70635" frameborder="0">
+</iframe>
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

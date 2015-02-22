@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+
+    <title>Learn Awesome Shield - </title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Fonts from Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
+    
+    <!--HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-md-12">
+<h1 id="color-led">Color LED</h1>
+<p>LEDs are very efficient lights. LED stands for &quot;Light Emitting Diode&quot;. The Awesome Shield has a full color LED. It's really three LEDs stuck together. One is red, one is green, and one is blue. By blending these three colors together at different strengths, you can create all the colors of the rainbow.</p>
+<hr />
+<h2 id="functions">Functions</h2>
+<h3 id="awesome.colorled.turnon">awesome.colorLED.<em>turnOn()</em></h3>
+<p>The <em>turnOn()</em> function turns the color LED on.</p>
+<h3 id="inputs">Inputs</h3>
+<p>It needs an input. It can take two type of inputs.</p>
+<h4 id="color-names">Color Names</h4>
+<p>You can give it a single input, with certain color names written in capitals. For example, <em>awesome.colorLED.turnOn(GREEN)</em> will light the LED up green. The colors you can name are: <em>WHITE</em>, <em>RED</em>, <em>GREEN</em>, <em>BLUE</em>, <em>YELLOW</em>, <em>PURPLE</em>, and <em>CYAN</em>.</p>
+<h4 id="color-strengths">Color Strengths</h4>
+<p>You can give it three inputs, which will be set as the power of the red, green and blue elements inside the color LED. The order of the color strengths is red, green, then blue. For example, <em>awesome.colorLED.turnOn(100, 0 , 255)</em> sets the red element to 100, the green to 0, and the blue to 255. These number inputs are _int_s, and the maximum value is 255.</p>
+<h3 id="returns">Returns</h3>
+<p>It doesn't return any variables.</p>
+<h3 id="tips">Tips</h3>
+<p>By using variables that change over time for the color strength inputs, you can make neat projects that fade from one color to the next.</p>
+<hr />
+<h3 id="awesome.colorled.turnoff-and-awesome.greenled.turnoff">awesome.colorLED.<em>turnOff()</em> and awesome.greenLED.<em>turnOff()</em></h3>
+<p>The <em>turnOff()</em> function turns the LED off. This turns off each of the three elements inside the color LED.</p>
+<h3 id="inputs-1">Inputs</h3>
+<p>It doesn't take any inputs.</p>
+<h3 id="returns-1">Returns</h3>
+<p>It doesn't return any variables.</p>
+<h3 id="tips-1">Tips</h3>
+<p>Don't forget to turn your LEDs off when you're done with them. Otherwise you won't notice when you turn them on a second time.</p>
+<h3 id="example">Example</h3>
+<iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/sketch:70635" frameborder="0">
+</iframe>
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
