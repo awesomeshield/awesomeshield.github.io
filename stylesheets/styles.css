@@ -1,9 +1,4 @@
 /* Basic Elements */
-hr {
-	margin-top: 40px;
-	margin-bottom: 40px;
-	border-top: 2px solid #fff;
-}
 iframe {
 	background: #eee;
 }
@@ -65,7 +60,12 @@ nav ul li a {
 
 
 
-/* Table of Contents */
+/* Aside */
+aside hr {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border-top: 2px solid #fff;
+}
 .toc li {
 	margin-bottom: 10px;
 }
