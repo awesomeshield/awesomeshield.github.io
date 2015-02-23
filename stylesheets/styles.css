@@ -1,0 +1,77 @@
+/* Basic Elements */
+hr {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border-top: 2px solid #fff;
+}
+iframe {
+	background: #eee;
+}
+
+
+
+/* Background Colors */
+body,
+.content {
+	background: rgba(0,0,0,0.02);
+}
+.content-main,
+.nav {
+	background: #fff;
+}
+
+
+
+/* Nav */
+.nav {
+	margin-bottom: 20px;
+}
+nav {
+	padding: 20px;
+}
+nav ul {
+	list-style: none;
+	float: right;
+	margin-top: 30px;
+}
+nav img, 
+nav ul li {
+	float: left;
+}
+nav ul li {
+	margin-left: 20px;
+	text-transform: uppercase;
+}
+nav ul li a {
+	color: black;
+}
+
+
+
+/* Table of Contents */
+.toc li {
+	margin-bottom: 10px;
+}
+
+
+
+/* Mailchimp */
+#mc_embed_signup {
+	clear:left; 
+	font:14px Helvetica,Arial,sans-serif; 
+}
+#mc_embed_signup .indicates-required {
+	display: none;
+}
+#mc_embed_signup .asterisk {
+	color: #888 !important;
+}
+#mc_embed_signup ul {
+	list-style: none;
+}
+
+
+/* Disqus */
+#disqus_thread iframe {
+	background: #fff;
+}
