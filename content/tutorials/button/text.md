@@ -1,6 +1,6 @@
 # Button
 
-The button is a simple switch. When the button is pressed down, it makes an electrical connection. The Arduino can detect this electrical connection, and figures out of the button is being pressed or not.
+The button is a simple switch. When the button is pressed down, it makes an electrical connection. The Arduino can detect this electrical connection, and figures out whether or not the button is being pressed.
 
 ***
 
@@ -8,13 +8,13 @@ The button is a simple switch. When the button is pressed down, it makes an elec
 
 #### awesome.button.*check()*
 
-The _check()_ function checks if the button is being pressed (ie. is down) or is being left alone (ie. is up).
+The `check()` function checks if the button is being pressed (ie. is down) or is being left alone (ie. is up).
 
 #### Inputs
 It doesn't take any inputs.
 
 #### Returns
-It returns an _bool_. This bool is _true_ if the button is pressed (down) and _false_ if it's not pressed (up).
+It returns an `bool`. This bool is `true` if the button is pressed (down) and `false` if it's not pressed (up).
 
 #### Tips
 The button is handy for an easy input device. It works really nicely with if().
