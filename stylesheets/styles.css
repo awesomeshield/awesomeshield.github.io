@@ -70,6 +70,20 @@ aside hr {
 	margin-bottom: 10px;
 }
 
+/* Google Search */
+td.gsc-search-button {
+	display: none;
+}
+.gsc-search-box-tools .gsc-search-box .gsc-input,
+.gsc-control-cse {
+	padding: 0 !important;
+}
+
+.gsc-input-box,
+.gsc-control-cse form, 
+.gsc-control-cse table {
+	margin-bottom: 0 !important;
+}
 
 
 /* Mailchimp */
