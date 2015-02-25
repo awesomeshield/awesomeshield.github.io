@@ -8,10 +8,10 @@ The buzzer is a very simple speaker. It can make a tone for a certain amount of 
 
 #### awesome.buzzer.*beep()*
 
-The _beep()_ function makes a tone.
+The `beep()` function makes a tone.
 
 #### Inputs
-The input is an _int_, which is the length of the tone, in milliseconds. So _awesome.buzzer.beep(1000)_ will beep for one second.
+The input is an `int`, which is the length of the tone, in milliseconds. So `awesome.buzzer.beep(1000)` will beep for one second.
 
 #### Returns
 It doesn't return any variables.

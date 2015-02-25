@@ -11,19 +11,19 @@ This is an Arduino sketch. Take a glance to see what it looks like, but don't wo
 
 Meet the Code Boxes: You're going to see code in two formats. Boxes like the one above that have buttons at the top, a grey column on the left, and a white background are whole sketches. You can click 'Clone & Edit' to open these yourself in codebender.
 
-Smaller grey boxes, like the ones below, show your little bits of code. They are small parts of a sketch. 
+Smaller grey boxes, like the ones below, show your little bits of code. They are small parts of a sketch.
 
 You'll notice two lines at the very top:
 
 	#include <Awesome.h>
 	Awesome awesome;
 
-The first line tells codebender to include the Awesome Shield Library with your sketch when it sends your sketch to the Arduino. That way when you tell the Arduino to use the Awesome Shield components, it can look in the library for instructions. The next line tells the Arduino that you're using your Awesome Shield. 
+The first line tells codebender to include the Awesome Shield Library with your sketch when it sends your sketch to the Arduino. That way when you tell the Arduino to use the Awesome Shield components, it can look in the library for instructions. The next line tells the Arduino that you're using your Awesome Shield.
 
 Then you'll see:
 
 	void setup ()
-	{ 
+	{
 	}
 
 	void loop ()
@@ -51,6 +51,6 @@ Notice that the function has a set of round brackets and a semicolon after it. T
 
 A function follows a set of instructions to finish a task. The function we wrote above will turn on the green LED on the Awesome Shield. The instructions this function will follow are written in the Awesome Shield Library. You'll learn to write your own functions later on, in another tutorial.
 
-The complete sketch that turns on the LED is below. 
+The complete sketch that turns on the LED is below.
 
 <iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/sketch:70640" frameborder="0"></iframe>

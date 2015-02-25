@@ -5,7 +5,7 @@ delay ( ) tells the Arduino to wait for a little while before following the inst
 ***
 
 #### Inputs
-It takes an input, which is an _int_. This _int_ tells the Arduino how long to wait for. It's in milliseconds, so _delay(1000)_ will wait for 1 second.
+It takes an input, which is an `int`. This `int` tells the Arduino how long to wait for. It's in milliseconds, so `delay(1000)` will wait for 1 second.
 
 #### Returns
 It doesn't return any values.

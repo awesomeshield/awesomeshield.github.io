@@ -8,13 +8,13 @@ The photocell is a simple light sensor. It's really a resistor, and it's resista
 
 ### awesome.lightSensor.*check()*
 
-The _check()_ function gets a light reading from the photocell.
+The `check()` function gets a light reading from the photocell.
 
 #### Inputs
 It doesn't take any inputs.
 
 #### Returns
-It returns an _int_, which is the light level in lux.
+It returns an `int`, which is the light level in lux.
 
 #### Tips
 The light level changes depending on how bright the room is, and also how covered up the light sensor is. You can use the light sensor to detect and simple gesture: a hand passing over it.

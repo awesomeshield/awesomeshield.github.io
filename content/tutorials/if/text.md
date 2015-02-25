@@ -1,11 +1,11 @@
 # if ( ) { }
 
-if() takes an input. If the input is _true_, then it follows the instructions between the curly braces. If the input is _false_, it does nothing.
+if() takes an input. If the input is `true`, then it follows the instructions between the curly braces. If the input is `false`, it does nothing.
 
 ***
 
 #### Inputs
-It takes a boolean value (eg. _true_) or a logical statement (eg. _temperature > 10_) as an input.
+It takes a boolean value (eg. `true`) or a logical statement (eg. `temperature > 10`) as an input.
 
 #### Returns
 It doesn't return any values.
