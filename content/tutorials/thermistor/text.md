@@ -6,7 +6,7 @@ The thermistor is a simple temperature sensor. It's really a resistor, and it's 
 
 ## Functions
 
-### awesome.thermistor.*check()*
+### awesome.temperatureSensor.*check()*
 
 The `check()` function gets a temperature reading from.
 
