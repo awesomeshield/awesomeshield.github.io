@@ -146,9 +146,17 @@
 <p>It three inputs, separated by semicolons, like this: <code>for ( input1; input2; input3 )</code></p>
 <p>In the first input, you declare a looping variable, for example <code>x</code>. You also give the starting value of the variable, for example <code>1</code>. This might look like <code>int x = 1</code> In the second input, you give a test condition that can be <code>true</code> or <code>false</code>, and uses your variable. This could look like <code>x &lt; 4</code>. In the third input, you increase or decrease the value of your looping variable. This increase or decrease will happen once eery time the instructions inside the for() loop's curly braces are followed. You can use <code>x++</code> to increase it by one, or <code>x--</code> to decrease it by one.</p>
 <p>Example:</p>
-<p>for ( int x=1; x&lt;3, x++ ) { // instructions to be followed during looping go here }</p>
-<p>When an Arduino sees this example for loop, it will: 1. start off with x=1 2. check to see if x is less than 3 3. this will be true, because x is equal to one 4. then it will follow the instructions inside the for loop 5. when it's done following the instructions, it will increase x by 1, making x = 2 6. then it will start over...</p>
-<ol start="7" style="list-style-type: decimal">
+<pre><code>for ( int x=1; x&lt;3, x++ ) {
+  // instructions to be followed during looping go here
+}</code></pre>
+<p>When an Arduino sees this example for loop, it will:</p>
+<ol style="list-style-type: decimal">
+<li>start off with x=1</li>
+<li>check to see if x is less than 3</li>
+<li>this will be true, because x is equal to one</li>
+<li>then it will follow the instructions inside the for loop</li>
+<li>when it's done following the instructions, it will increase x by 1, making x = 2</li>
+<li><p>then it will start over...</p></li>
 <li>it will check to see if x &lt; 3</li>
 <li>this will be true, because x = 2</li>
 <li>it will follow the instructions inside the loop again</li>
