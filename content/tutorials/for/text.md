@@ -13,11 +13,13 @@ In the third input, you increase or decrease the value of your looping variable.
 
 Example:
 
-  for ( int x=1; x<3, x++ ) {
-    // instructions to be followed during looping go here
-  }
-
+```
+for ( int x=1; x<3, x++ ) {
+  // instructions to be followed during looping go here
+}
+```
 When an Arduino sees this example for loop, it will:
+
 1.  start off with x=1
 2.  check to see if x is less than 3
 3.  this will be true, because x is equal to one
