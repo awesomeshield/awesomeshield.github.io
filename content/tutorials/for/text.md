@@ -23,7 +23,7 @@ When an Arduino sees this example for loop, it will:
 1.  start off with `x=1`
 2.  check to see if `x` is less than `3`
 3.  this will be true, because `x` is equal to `1`
-4.  then it will follow the instructions inside the for loop
+4.  then it will follow the instructions inside the for loop's curly braces
 5.  when it's done following the instructions, it will increase `x` by `1`, making `x = 2`
 6.  then it will start over...
 
