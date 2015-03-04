@@ -139,6 +139,34 @@
        </aside>
 
   			<div class="col-sm-8 content-main">
+<h1 id="color-led">Color LED</h1>
+<p>LEDs are very efficient lights. LED stands for &quot;Light Emitting Diode&quot;. The Awesome Shield has a full color LED. It's really three LEDs stuck together. One is red, one is green, and one is blue. By blending these three colors together at different strengths, you can create all the colors of the rainbow.</p>
+<hr />
+<h2 id="functions">Functions</h2>
+<h3 id="awesome.colorled.turnon">awesome.colorLED.<em>turnOn()</em></h3>
+<p>The <code>turnOn()</code> function turns the color LED on.</p>
+<h4 id="inputs">Inputs</h4>
+<p>It needs an input. It can take two type of inputs.</p>
+<h5 id="color-names">Color Names</h5>
+<p>You can give it a single input, with certain color names written in capitals. For example, <code>awesome.colorLED.turnOn(GREEN)</code> will light the LED up green. The colors you can name are: <code>WHITE</code>, <code>RED</code>, <code>GREEN</code>, <code>BLUE</code>, <code>YELLOW</code>, <code>PURPLE</code>, and <code>CYAN</code>.</p>
+<h5 id="color-strengths">Color Strengths</h5>
+<p>You can give it three inputs, which will be set as the power of the red, green and blue elements inside the color LED. The order of the color strengths is red, green, then blue. For example, <code>awesome.colorLED.turnOn(100, 0 , 255)</code> sets the red element to 100, the green to 0, and the blue to 255. These number inputs are <code>int</code>s, and the maximum value is 255.</p>
+<h4 id="returns">Returns</h4>
+<p>It doesn't return any variables.</p>
+<h4 id="tips">Tips</h4>
+<p>By using variables that change over time for the color strength inputs, you can make neat projects that fade from one color to the next.</p>
+<hr />
+<h3 id="awesome.colorled.turnoff-and-awesome.greenled.turnoff">awesome.colorLED.<em>turnOff()</em> and awesome.greenLED.<em>turnOff()</em></h3>
+<p>The <code>turnOff()</code> function turns the LED off. This turns off each of the three elements inside the color LED.</p>
+<h4 id="inputs-1">Inputs</h4>
+<p>It doesn't take any inputs.</p>
+<h4 id="returns-1">Returns</h4>
+<p>It doesn't return any variables.</p>
+<h4 id="tips-1">Tips</h4>
+<p>Don't forget to turn your LEDs off when you're done with them. Otherwise you won't notice when you turn them on a second time.</p>
+<h4 id="example">Example</h4>
+<iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/sketch:90338" frameborder="0">
+</iframe>
 				<!-- Disqus -->
 				<div id="disqus_thread"></div>
 			    <script type="text/javascript">
