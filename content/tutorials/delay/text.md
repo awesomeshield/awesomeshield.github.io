@@ -15,4 +15,4 @@ delay() is really handy when you want something to happen for a certain amount o
 
 #### Example
 
-<iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/sketch:70635" frameborder="0"></iframe>
+<iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/sketch:90338" frameborder="0"></iframe>

@@ -20,4 +20,4 @@ It doesn't return any variables.
 Beeping is useful in projects where you might not be looking at your Awesome Shield, but need to know when something happens.
 
 #### Example
-<iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/sketch:70635" frameborder="0"></iframe>
+<iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/sketch:90336" frameborder="0"></iframe>

@@ -20,4 +20,4 @@ It returns a `float`, which is the temperature in degrees Celsius.
 Ordinarily, the thermistor checks the air temperature. But it can check other temperatures. For example, if you put your finger on the thermistor, it will read your skin temperature.
 
 #### Example
-<iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/sketch:70635" frameborder="0"></iframe>
+<iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/sketch:90338" frameborder="0"></iframe>

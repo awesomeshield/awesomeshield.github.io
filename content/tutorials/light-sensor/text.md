@@ -20,4 +20,4 @@ It returns an `int`, which is the light level in lux.
 The light level changes depending on how bright the room is, and also how covered up the light sensor is. You can use the light sensor to detect and simple gesture: a hand passing over it.
 
 #### Example
-<iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/sketch:70635" frameborder="0"></iframe>
+<iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/sketch:90336" frameborder="0"></iframe>

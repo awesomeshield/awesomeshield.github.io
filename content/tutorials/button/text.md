@@ -20,4 +20,4 @@ It returns an `bool`. This bool is `true` if the button is pressed (down) and `f
 The button is handy for an easy input device. It works really nicely with if().
 
 #### Example
-<iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/sketch:70635" frameborder="0"></iframe>
+<iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/sketch:89603" frameborder="0"></iframe>

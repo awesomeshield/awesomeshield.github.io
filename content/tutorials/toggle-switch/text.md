@@ -20,4 +20,4 @@ It returns an `bool`. This bool is `true` if the switch is set to "on" and `fals
 The switch is handy when you want to have two different modes that your program runs in. For example, one mode could silence the buzzer. It works really nicely with if().
 
 #### Example
-<iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/sketch:70635" frameborder="0"></iframe>
+<iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/sketch:90348" frameborder="0"></iframe>

@@ -35,4 +35,4 @@ It doesn't return any variables.
 Don't forget to turn your LEDs off when you're done with them. Otherwise you won't notice when you turn them on a second time.
 
 #### Example
-<iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/sketch:70635" frameborder="0"></iframe>
+<iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/sketch:89603" frameborder="0"></iframe>

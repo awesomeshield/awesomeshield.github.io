@@ -14,4 +14,4 @@ It doesn't return any values.
 if() is really handy when you're trying to react to certain conditions. For example, you could turn a light on whenever a button is pressed. Check out the example below to see how.
 
 #### Example
-<iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/sketch:70635" frameborder="0"></iframe>
+<iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/sketch:89603" frameborder="0"></iframe>
