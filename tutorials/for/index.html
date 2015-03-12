@@ -146,26 +146,33 @@
 <p>It three inputs, separated by semicolons, like this: <code>for ( input1; input2; input3 )</code></p>
 <p><em>input 1</em>: you declare a looping variable, for example <code>x</code>. You also give the starting value of the variable, for example <code>1</code>. This might look like <code>int x = 1</code> <em>input 2</em>: you give a test condition that can be <code>true</code> or <code>false</code>, and uses your looping variable. This could look like <code>x &lt; 4</code>. <em>input 3</em>: you increase or decrease the value of your looping variable. This increase or decrease will happen once eery time the instructions inside the <code>for()</code> loop's curly braces are followed. You can use <code>x++</code> to increase it by one, or <code>x--</code> to decrease it by one.</p>
 <p>Example:</p>
-<pre><code>for ( int x=1; x&lt;3, x++ ) {
+<pre><code>for ( int x=1; x&lt;3; x++ ) {
   // instructions to be followed during looping go here
 }</code></pre>
 <p>When an Arduino sees this example for loop, it will:</p>
+<p>Go through the loop once</p>
 <ol style="list-style-type: decimal">
 <li>start off with <code>x=1</code></li>
 <li>check to see if <code>x</code> is less than <code>3</code></li>
 <li>this will be true, because <code>x</code> is equal to <code>1</code></li>
 <li>then it will follow the instructions inside the for loop's curly braces</li>
 <li>when it's done following the instructions, it will increase <code>x</code> by <code>1</code>, making <code>x = 2</code></li>
-<li><p>then it will start over...</p></li>
+<li>then it will start over...</li>
+</ol>
+<p>Go through the loop a second time</p>
+<ol start="7" style="list-style-type: decimal">
 <li>it will check to see if <code>x &lt; 3</code></li>
 <li>this will be true, because <code>x = 2</code></li>
 <li>it will follow the instructions inside the loop again</li>
 <li>it will increase <code>x</code> by <code>1</code>, making <code>x = 3</code></li>
-<li><p>then it will start over...</p></li>
+<li>then it will start over...</li>
+</ol>
+<p>Go through the loop a third time</p>
+<ol start="12" style="list-style-type: decimal">
 <li>it will check to see if <code>x &lt; 3</code></li>
 <li>this will be false, because <code>x = 3</code></li>
 <li>it won't follow the instructions inside the loop</li>
-<li><p>it will end the for loop, and move on to the next line of code after the loop</p></li>
+<li>it will end the for loop, and move on to the next line of code after the loop</li>
 </ol>
 <h4 id="returns">Returns</h4>
 <p>It doesn't return any values.</p>

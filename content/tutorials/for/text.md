@@ -14,11 +14,13 @@ It three inputs, separated by semicolons, like this: `for ( input1; input2; inpu
 Example:
 
 ```
-for ( int x=1; x<3, x++ ) {
+for ( int x=1; x<3; x++ ) {
   // instructions to be followed during looping go here
 }
 ```
 When an Arduino sees this example for loop, it will:
+
+Go through the loop once
 
 1.  start off with `x=1`
 2.  check to see if `x` is less than `3`
@@ -27,11 +29,15 @@ When an Arduino sees this example for loop, it will:
 5.  when it's done following the instructions, it will increase `x` by `1`, making `x = 2`
 6.  then it will start over...
 
+Go through the loop a second time
+
 7.  it will check to see if `x < 3`
 8.  this will be true, because `x = 2`
 9.  it will follow the instructions inside the loop again
 10. it will increase `x` by `1`, making `x = 3`
 11. then it will start over...
+
+Go through the loop a third time
 
 12.  it will check to see if `x < 3`
 13.  this will be false, because `x = 3`
