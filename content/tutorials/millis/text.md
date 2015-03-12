@@ -11,7 +11,7 @@ It doesn't take any inputs.
 It returns the number of milliseconds as a `long`. It can't count past 50 days worth of milliseconds, so it resets to `0` after about that much time.
 
 #### Tips
-millis() is really useful when you want that depends on time (like a timer or a metronome), but you don't want to use delay().
+`millis()` is really useful when you want that depends on time (like a timer or a metronome), but you don't want to use delay().
 
 #### Example
-<iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/sketch:70635" frameborder="0"></iframe>
+We haven't quite written an example yet. If you want, you can send us something you build with `millis` and we'll put it here! :-)
