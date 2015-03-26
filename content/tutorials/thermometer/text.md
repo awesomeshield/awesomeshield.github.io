@@ -4,7 +4,9 @@ You can use the temperature sensor on the awesome shield as a thermometer.
 
 ***
 
-You can use the template sketch as a starting point for this project. [Click here to clone it.](https://codebender.cc/sketch:88120)
+#### You can use the template sketch as a starting point for this project. [Click here to clone it.](https://codebender.cc/sketch:88120)
+
+***
 
 #### "Hello, World!"
 You'll need a place that the Arduino can show you the temperature value. You can send information from the Arduino back to your computer through the USB cable, using `Serial`.
