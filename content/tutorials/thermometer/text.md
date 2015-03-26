@@ -40,3 +40,4 @@ Try using `serial.print()` to add some text as well, so that your message reads 
 After you've used `Serial.print()` to create your temperature message, try adding `Serial.println();` at the end. This function makes a new line (`ln` is short for "line"), which is like hitting "enter" in a word processor.
 
 #### Example
+If you're stuck, [you can see how our Thermometer sketch turned out](https://codebender.cc/sketch:96729)
