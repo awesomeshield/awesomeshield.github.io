@@ -4,6 +4,8 @@ You can use the temperature sensor on the awesome shield as a thermometer.
 
 ***
 
+You can use the template sketch as a starting point for this project. [Click here to clone it.](https://codebender.cc/sketch:88120)
+
 #### "Hello, World!"
 You'll need a place that the Arduino can show you the temperature value. You can send information from the Arduino back to your computer through the USB cable, using `Serial`.
 
@@ -29,10 +31,10 @@ Try replacing `"Hello, World!"` from your last sketch with this code that reads 
 
 
 #### Tidying it up
-If you used `Serial.print()` inside the loop, you might have noticed that the Arduino sends the temperature over and over again, without any spaces. This can get a little hard to read.
+If you used `Serial.print()` inside the loop, you might have noticed that the Arduino sends the temperature over and over again, without any spaces or labels. This can get a little hard to read.
 
 Try using `serial.print()` to add some text as well, so that your message reads something like "The temperature is 25.0 degrees Celsius."
 
-After you've used `Serial.print()` to send your message, try adding `Serial.println();`. This function makes a new line (`ln` is short for "line"), which is like hitting "enter" in a word processor.
+After you've used `Serial.print()` to create your temperature message, try adding `Serial.println();` at the end. This function makes a new line (`ln` is short for "line"), which is like hitting "enter" in a word processor.
 
 #### Example

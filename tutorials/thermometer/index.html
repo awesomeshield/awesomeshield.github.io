@@ -159,6 +159,7 @@
 <h1 id="thermometer">Thermometer</h1>
 <p>You can use the temperature sensor on the awesome shield as a thermometer.</p>
 <hr />
+<p>You can use the template sketch as a starting point for this project. <a href="https://codebender.cc/sketch:88120">Click here to clone it.</a></p>
 <h4 id="hello-world">&quot;Hello, World!&quot;</h4>
 <p>You'll need a place that the Arduino can show you the temperature value. You can send information from the Arduino back to your computer through the USB cable, using <code>Serial</code>.</p>
 <p><code>Serial.print(&quot;hi&quot;);</code></p>
@@ -175,9 +176,9 @@
 <p><code>awesome.temperatureSensor.check()</code> would be replaced with <code>25.0</code> if the room is 25 degrees Celsius.</p>
 <p>Try replacing <code>&quot;Hello, World!&quot;</code> from your last sketch with this code that reads the temperature, and see what happens.</p>
 <h4 id="tidying-it-up">Tidying it up</h4>
-<p>If you used <code>Serial.print()</code> inside the loop, you might have noticed that the Arduino sends the temperature over and over again, without any spaces. This can get a little hard to read.</p>
+<p>If you used <code>Serial.print()</code> inside the loop, you might have noticed that the Arduino sends the temperature over and over again, without any spaces or labels. This can get a little hard to read.</p>
 <p>Try using <code>serial.print()</code> to add some text as well, so that your message reads something like &quot;The temperature is 25.0 degrees Celsius.&quot;</p>
-<p>After you've used <code>Serial.print()</code> to send your message, try adding <code>Serial.println();</code>. This function makes a new line (<code>ln</code> is short for &quot;line&quot;), which is like hitting &quot;enter&quot; in a word processor.</p>
+<p>After you've used <code>Serial.print()</code> to create your temperature message, try adding <code>Serial.println();</code> at the end. This function makes a new line (<code>ln</code> is short for &quot;line&quot;), which is like hitting &quot;enter&quot; in a word processor.</p>
 <h4 id="example">Example</h4>
 				<!-- Disqus -->
 				<div id="disqus_thread"></div>
