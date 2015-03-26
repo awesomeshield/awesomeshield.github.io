@@ -4,7 +4,7 @@ You can use the temperature sensor on the awesome shield as a thermometer.
 
 ***
 
-*You can use the template sketch as a starting point for this project. [Click here to clone it.](https://codebender.cc/sketch:88120)*
+##### You can use the template sketch as a starting point for this project. [Click here to clone it.](https://codebender.cc/sketch:88120)
 
 ***
 
