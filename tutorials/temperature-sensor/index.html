@@ -72,7 +72,7 @@
               <ul>
                 <li><a href="http://learn.awesomeshield.com/tutorials/button/index.html">Button</a></li>
                 <li><a href="http://learn.awesomeshield.com/tutorials/buzzer/index.html">Buzzer</a></li>
-                <li><a href="http://learn.awesomeshield.com/tutorials/LED/index.html">LED</a></li>
+                <li><a href="http://learn.awesomeshield.com/tutorials/led/index.html">LED</a></li>
                 <li><a href="http://learn.awesomeshield.com/tutorials/light-sensor/index.html">Light Sensor</a></li>
                 <li><a href="http://learn.awesomeshield.com/tutorials/temperature-sensor/index.html">Temperature Sensor</a></li>
                 <li><a href="http://learn.awesomeshield.com/tutorials/toggle-switch/index.html">Toggle Switch</a></li>
@@ -130,21 +130,15 @@
        </aside>
 
   			<div class="col-sm-8 content-main">
-<h1 id="thermistor">Thermistor</h1>
-<p>The thermistor is a simple temperature sensor. It's really a resistor, and it's resistance changes depending on the temperature. The Arduino can sense this resistance, and then it uses the Awesome Shield library to calculate the temperature.</p>
+<h1 id="temperature-sensor">Temperature Sensor</h1>
+<p>The thermistor is a simple temperature sensor. It's a resistor, and it's electrical resistance changes depending on the temperature. The Arduino can sense this resistance, and then it uses the Awesome Shield library to calculate the temperature.</p>
 <hr />
 <h2 id="functions">Functions</h2>
-<h3 id="awesome.temperaturesensor.check">awesome.temperatureSensor.<em>check()</em></h3>
-<p>The <code>check()</code> function gets a temperature reading from.</p>
-<h4 id="inputs">Inputs</h4>
-<p>It doesn't take any inputs.</p>
-<h4 id="returns">Returns</h4>
-<p>It returns a <code>float</code>, which is the temperature in degrees Celsius.</p>
-<h4 id="tips">Tips</h4>
+<h3 id="awesome.temperaturesensor.reading">awesome.temperatureSensor.<em>reading()</em></h3>
+<p>The <code>reading()</code> function gets a temperature reading from the temperature sensor.</p>
+<p><em>Returns:</em> It returns a <code>float</code>, which is the temperature in degrees Celsius.</p>
+<h2 id="tips">Tips</h2>
 <p>Ordinarily, the thermistor checks the air temperature. But it can check other temperatures. For example, if you put your finger on the thermistor, it will read your skin temperature.</p>
-<h4 id="example">Example</h4>
-<iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/sketch:90338" frameborder="0">
-</iframe>
 				<!-- Disqus -->
 				<div id="disqus_thread"></div>
 			    <script type="text/javascript">
