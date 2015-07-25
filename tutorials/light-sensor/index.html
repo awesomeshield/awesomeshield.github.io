@@ -135,17 +135,11 @@
 <p>The photocell is a simple light sensor. It's really a resistor, and it's resistance changes depending on how much light is shining on it. The Arduino can sense this resistance, and then it uses the Awesome Shield library to calculate the light level.</p>
 <hr />
 <h2 id="functions">Functions</h2>
-<h3 id="awesome.lightsensor.check">awesome.lightSensor.<em>check()</em></h3>
-<p>The <code>check()</code> function gets a light reading from the photocell.</p>
-<h4 id="inputs">Inputs</h4>
-<p>It doesn't take any inputs.</p>
-<h4 id="returns">Returns</h4>
-<p>It returns an <code>int</code>, which is the light level in lux.</p>
-<h4 id="tips">Tips</h4>
+<h4 id="awesome.lightsensor.reading">awesome.lightSensor.<em>reading()</em></h4>
+<p>The <code>reading()</code> function gets a light reading from the light sensor.</p>
+<p><em>Returns:</em> It returns an <code>int</code>, which is the light level in lux.</p>
+<h2 id="tips">Tips</h2>
 <p>The light level changes depending on how bright the room is, and also how covered up the light sensor is. You can use the light sensor to detect and simple gesture: a hand passing over it.</p>
-<h4 id="example">Example</h4>
-<iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/sketch:90336" frameborder="0">
-</iframe>
 				<!-- Disqus -->
 				<div id="disqus_thread"></div>
 			    <script type="text/javascript">
