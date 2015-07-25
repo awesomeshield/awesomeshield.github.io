@@ -1,6 +1,6 @@
 # Light Sensor
 
-The photocell is a simple light sensor. It's really a resistor, and it's resistance changes depending on how much light is shining on it. The Arduino can sense this resistance, and then it uses the Awesome Shield library to calculate the light level.
+The photocell is a simple light sensor. Its resistance changes depending on how much light is shining on it. The Arduino can measure this resistance, and then it uses the Awesome Shield library to calculate the light level.
 
 ***
 

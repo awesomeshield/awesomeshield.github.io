@@ -1,6 +1,6 @@
 # Temperature Sensor
 
-The thermistor is a simple temperature sensor. It's a resistor, and it's electrical resistance changes depending on the temperature. The Arduino can sense this resistance, and then it uses the Awesome Shield library to calculate the temperature.
+The thermistor is a simple temperature sensor. It's a resistor, and it's electrical resistance changes depending on the temperature. The Arduino can measure this resistance. Then it uses the Awesome Shield library to calculate the temperature from the resistance.
 
 ***
 

@@ -1,6 +1,6 @@
 # Button
 
-The button is a simple switch. When the button is pressed down, it makes an electrical connection. The Arduino can detect this electrical connection, and figures out whether or not the button is being down.
+The button is a simple switch. When the button is pressed down, it makes an electrical connection. The Arduino can detect this electrical connection and tell if the button is down.
 
 ***
 
