@@ -1,6 +1,6 @@
 # Toggle Switch
 
-The toggle switch is a simple switch. When the switch is at the end labelled "on" on the Awesome Shield, it makes an electrical connection. The Arduino can detect this electrical connection, and figures out of the switch is set to "on" or "off".
+The toggle switch is a simple switch. When the switch is at the end labelled "on", it makes an electrical connection. The Arduino can detect this electrical connection, and figures out of the switch is set to "on" or "off".
 
 ***
 
