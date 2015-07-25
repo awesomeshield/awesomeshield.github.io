@@ -10,7 +10,7 @@ The buzzer is a very simple speaker. It can make a tone for a certain amount of 
 
 The `turnOn()` function turns the buzzer on, so that it makes a sound.
 
-*Inputs:* It takes an integer `frequency` as an input. A higher number will make a higher pitched sound. We typically use between 300-600.
+*Inputs:* It takes an integer `frequency` as an input. A higher number will make a higher pitched sound. We typically use between `300-600`.
 
 #### awesome.buzzer.*turnOff()*
 
