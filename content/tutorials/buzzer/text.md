@@ -6,18 +6,45 @@ The buzzer is a very simple speaker. It can make a tone for a certain amount of 
 
 ## Functions
 
-#### awesome.buzzer.*beep()*
+#### awesome.buzzer.*turnOn(int frequency)*
 
-The `beep()` function makes a tone.
+The `turnOn()` function turns the buzzer on, so that it makes a sound.
 
-#### Inputs
-The input is an `int`, which is the length of the tone, in milliseconds. So `awesome.buzzer.beep(1000)` will beep for one second.
+*Inputs:* It takes an integer `frequency` as an input. A higher number will make a higher pitched sound. We typically use between 300-600.
 
-#### Returns
-It doesn't return any variables.
+*Returns:* No returns.
 
-#### Tips
-Beeping is useful in projects where you might not be looking at your Awesome Shield, but need to know when something happens.
+#### awesome.buzzer.*turnOff()*
 
-#### Example
-<iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/sketch:90336" frameborder="0"></iframe>
+The `turnOn()` function turns the buzzer off, so that it stops making a sound.
+
+*Inputs:* No Inputs.
+
+*Returns:* No returns.
+
+#### awesome.buzzer.*beep(int millis, int frequency)*
+
+The `beep()` function turns the buzzer on at a certain frequency, waits, and then turns it off again.
+
+*Inputs:* It takes two inputs `millis` and `frequency`. Both are `int`s. `Millis` is the number of milliseconds the buzzer will beep for. `frequency` controls how high pitched the sound will be.
+
+*Returns:* No returns.
+
+#### awesome.buzzer.*isOn()*
+
+The `isOn()` function checks to see if the buzzer is currently turned on.
+
+*Inputs:* No inputs.
+
+*Returns:* it returns a `bool`, which is true if the buzzer is currently turned on, and `false` if it is currently turned off.
+
+#### awesome.buzzer.*isOff()*
+
+The `isOn()` function checks to see if the buzzer is currently turned off.
+
+*Inputs:* No inputs.
+
+*Returns:* it returns a `bool`, which is true if the buzzer is currently turned off, and `false` if it is currently turned on.
+
+## Tips
+The buzzer is useful in projects where you might not be looking at your Awesome Shield, but need to know when something happens.

@@ -22,5 +22,5 @@ The `isUp()` function works a lot like the `isDown()` function, but tells you wh
 
 *Returns:* It returns a `bool`. This bool is `true` if the button is up and `false` if it is down.
 
-#### Tips
+## Tips
 The button is handy for an easy input device. It works really nicely with if().

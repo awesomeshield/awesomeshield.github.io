@@ -135,17 +135,28 @@
 <p>The buzzer is a very simple speaker. It can make a tone for a certain amount of time. We call this beeping.</p>
 <hr />
 <h2 id="functions">Functions</h2>
-<h4 id="awesome.buzzer.beep">awesome.buzzer.<em>beep()</em></h4>
-<p>The <code>beep()</code> function makes a tone.</p>
-<h4 id="inputs">Inputs</h4>
-<p>The input is an <code>int</code>, which is the length of the tone, in milliseconds. So <code>awesome.buzzer.beep(1000)</code> will beep for one second.</p>
-<h4 id="returns">Returns</h4>
-<p>It doesn't return any variables.</p>
-<h4 id="tips">Tips</h4>
-<p>Beeping is useful in projects where you might not be looking at your Awesome Shield, but need to know when something happens.</p>
-<h4 id="example">Example</h4>
-<iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/sketch:90336" frameborder="0">
-</iframe>
+<h4 id="awesome.buzzer.turnonint-frequency">awesome.buzzer.<em>turnOn(int frequency)</em></h4>
+<p>The <code>turnOn()</code> function turns the buzzer on, so that it makes a sound.</p>
+<p><em>Inputs:</em> It takes an integer <code>frequency</code> as an input. A higher number will make a higher pitched sound. We typically use between 300-600.</p>
+<p><em>Returns:</em> No returns.</p>
+<h4 id="awesome.buzzer.turnoff">awesome.buzzer.<em>turnOff()</em></h4>
+<p>The <code>turnOn()</code> function turns the buzzer off, so that it stops making a sound.</p>
+<p><em>Inputs:</em> No Inputs.</p>
+<p><em>Returns:</em> No returns.</p>
+<h4 id="awesome.buzzer.beepint-millis-int-frequency">awesome.buzzer.<em>beep(int millis, int frequency)</em></h4>
+<p>The <code>beep()</code> function turns the buzzer on at a certain frequency, waits, and then turns it off again.</p>
+<p><em>Inputs:</em> It takes two inputs <code>millis</code> and <code>frequency</code>. Both are <code>int</code>s. <code>Millis</code> is the number of milliseconds the buzzer will beep for. <code>frequency</code> controls how high pitched the sound will be.</p>
+<p><em>Returns:</em> No returns.</p>
+<h4 id="awesome.buzzer.ison">awesome.buzzer.<em>isOn()</em></h4>
+<p>The <code>isOn()</code> function checks to see if the buzzer is currently turned on.</p>
+<p><em>Inputs:</em> No inputs.</p>
+<p><em>Returns:</em> it returns a <code>bool</code>, which is true if the buzzer is currently turned on, and <code>false</code> if it is currently turned off.</p>
+<h4 id="awesome.buzzer.isoff">awesome.buzzer.<em>isOff()</em></h4>
+<p>The <code>isOn()</code> function checks to see if the buzzer is currently turned off.</p>
+<p><em>Inputs:</em> No inputs.</p>
+<p><em>Returns:</em> it returns a <code>bool</code>, which is true if the buzzer is currently turned off, and <code>false</code> if it is currently turned on.</p>
+<h2 id="tips">Tips</h2>
+<p>The buzzer is useful in projects where you might not be looking at your Awesome Shield, but need to know when something happens.</p>
 				<!-- Disqus -->
 				<div id="disqus_thread"></div>
 			    <script type="text/javascript">
