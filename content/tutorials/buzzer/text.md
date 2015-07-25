@@ -14,11 +14,11 @@ The `turnOn()` function turns the buzzer on, so that it makes a sound.
 
 #### awesome.buzzer.*turnOff()*
 
-The `turnOn()` function turns the buzzer off, so that it stops making a sound.
+The `turnOff()` function turns the buzzer off, so that it stops making a sound.
 
 #### awesome.buzzer.*beep(int millis, int frequency)*
 
-The `beep()` function turns the buzzer on at a certain frequency, waits, and then turns it off again.
+The `beep()` function turns the buzzer on at a certain frequency, waits for a certain numebr of milliseconds, and then turns it off again.
 
 *Inputs:* It takes two inputs `millis` and `frequency`. Both are `int`s. `Millis` is the number of milliseconds the buzzer will beep for. `frequency` controls how high pitched the sound will be.
 
@@ -30,9 +30,9 @@ The `isOn()` function checks to see if the buzzer is currently turned on.
 
 #### awesome.buzzer.*isOff()*
 
-The `isOn()` function checks to see if the buzzer is currently turned off.
+The `isOff()` function checks to see if the buzzer is currently turned off.
 
-*Returns:* it returns a `bool`, which is true if the buzzer is currently turned off, and `false` if it is currently turned on.
+*Returns:* it returns a `bool`, which is `true` if the buzzer is currently turned off, and `false` if it is currently turned on.
 
 ## Tips
 The buzzer is useful in projects where you might not be looking at your Awesome Shield, but need to know when something happens.
