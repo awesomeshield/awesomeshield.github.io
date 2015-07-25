@@ -2,14 +2,11 @@
 
 for() loops through a set of instructions a certain number of times.
 
-***
+*Inputs:* It tkae three inputs, separated by semicolons, like this: `for ( input1; input2; input3 )`
 
-#### Inputs
-It three inputs, separated by semicolons, like this: `for ( input1; input2; input3 )`
-
-*input 1*: you declare a looping variable, for example `x`. You also give the starting value of the variable, for example `1`. This might look like `int x = 1`
-*input 2*: you give a test condition that can be `true` or `false`, and uses your looping variable. This could look like `x < 4`.
-*input 3*: you increase or decrease the value of your looping variable. This increase or decrease will happen once eery time the instructions inside the `for()` loop's curly braces are followed. You can use `x++` to increase it by one, or `x--` to decrease it by one.
+*`input 1`:* you declare a looping variable, for example `x`. You also give the starting value of the variable, for example `1`. This might look like `int x = 1`
+*`input 2`:* you give a test condition that can be `true` or `false`, and uses your looping variable. This could look like `x < 4`.
+*`input 3`:* you increase or decrease the value of your looping variable. This increase or decrease will happen once eery time the instructions inside the `for()` loop's curly braces are followed. You can use `x++` to increase it by one, or `x--` to decrease it by one.
 
 Example:
 
@@ -44,12 +41,5 @@ Go through the loop a third time
 14.  it won't follow the instructions inside the loop
 15. it will end the for loop, and move on to the next line of code after the loop
 
-
-#### Returns
-It doesn't return any values.
-
-#### Tips
+## Tips
 for() is really handy when you're trying to repead something a certain number of times. Let's say you want to flash and LED 10 times, you could use a for() loop. Check out the example below to see how this works.
-
-#### Example
-<iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/sketch:70635" frameborder="0"></iframe>
