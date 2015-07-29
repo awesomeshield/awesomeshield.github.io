@@ -5,8 +5,10 @@ for() loops through a set of instructions a certain number of times.
 *Inputs:* It tkae three inputs, separated by semicolons, like this: `for ( input1; input2; input3 )`
 
 *`input 1`:* you declare a looping variable, for example `x`. You also give the starting value of the variable, for example `1`. This might look like `int x = 1`
+
 *`input 2`:* you give a test condition that can be `true` or `false`, and uses your looping variable. This could look like `x < 4`.
-*`input 3`:* you increase or decrease the value of your looping variable. This increase or decrease will happen once eery time the instructions inside the `for()` loop's curly braces are followed. You can use `x++` to increase it by one, or `x--` to decrease it by one.
+
+*`input 3`:* you increase or decrease the value of your looping variable. This increase or decrease will happen once every time the instructions inside the `for()` loop's curly braces are followed. You can use `x++` to increase it by one, or `x--` to decrease it by one.
 
 Example:
 
