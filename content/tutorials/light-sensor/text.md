@@ -1,6 +1,6 @@
 # Light Sensor
 
-The photocell is a simple light sensor. Its resistance changes depending on how much light is shining on it. The Arduino can measure this resistance, and then it uses the Awesome Shield library to calculate the light level.
+The photocell is a simple light sensor. Its resistance changes depending on how much light is shining on it. The Arduino can measure this resistance. Then it uses the Awesome Shield library to calculate the light level.
 
 ***
 
@@ -14,4 +14,4 @@ The `reading()` function gets a light reading from the light sensor.
 It returns an `int`, which is the light level in lux.
 
 ## Tips
-The light level changes depending on how bright the room is, and also how covered up the light sensor is. You can use the light sensor to detect and simple gesture: a hand passing over it.
+The sensor reading will chance if you cover it with your hand, or shine a light on it. You can use the light sensor to detect and simple gesture: a hand passing over it.
