@@ -1,6 +1,6 @@
 # LED
 
-LEDs are efficient lights. LED stands for "Light Emitting Diode". The Awesome Shield has a full color LED. It's really three LEDs stuck together. A red one, a green on, and a blue one. By blending these three colors together at different strengths, you can create all the colors of the rainbow. Nifty!
+LEDs are efficient lights. LED stands for "Light Emitting Diode". The Awesome Shield has a full color LED. It's really three LEDs stuck together. A red one, a green on, and a blue one. You can blend these three colors together to make all the colors of the rainbow. Nifty!
 
 ***
 
