@@ -136,27 +136,27 @@
 <hr />
 <h2 id="functions">Functions</h2>
 <h4 id="awesome.led.turnon">awesome.LED.<em>turnOn()</em></h4>
-<p>The <code>turnOn()</code> function turns the color LED on.</p>
-<p><em>Inputs:</em> This function needs an input. It can take two types, a color name, or a set of three color strengths.</p>
+<p>The <code>turnOn()</code> function turns the LED on.</p>
+<p><em>Inputs:</em> This function can take an input, which lets you choose the color. It can take two types, a color name, or a set of three color strengths. If you do not give the function an input, the LED will be white.</p>
 <h6 id="color-names">Color Names</h6>
-<p>You can give it a single input, with certain color names written in capitals. For example, <code>awesome.colorLED.turnOn(GREEN)</code> will light the LED up green. The colors you can name are: <code>WHITE</code>, <code>RED</code>, <code>GREEN</code>, <code>BLUE</code>, <code>YELLOW</code>, <code>PURPLE</code>, and <code>CYAN</code>.</p>
+<p>You can give it a single input, which is a color name written in capitals. For example, <code>awesome.colorLED.turnOn(GREEN)</code> will light the LED up green. You can use these color names: <code>WHITE</code>, <code>RED</code>, <code>GREEN</code>, <code>BLUE</code>, <code>YELLOW</code>, <code>PURPLE</code>, and <code>CYAN</code>.</p>
 <h6 id="color-strengths">Color Strengths</h6>
-<p>You can give it three inputs, which will be set as the power of the red, green and blue elements inside the color LED. The order of the color strengths is: red, green, then blue. For example, <code>awesome.colorLED.turnOn(100, 0 , 255)</code> sets the red element to 100, the green to 0, and the blue to 255. These number inputs should be <code>int</code>s between 0 and 255.</p>
+<p>You can give it three inputs, which are numbers. These number inputs should be <code>int</code>s between 0 and 255. They will set the power of the red, green and blue elements inside the color LED. A higher number means a brighter color. The order of the color strengths is: red, green, then blue. For example, <code>awesome.colorLED.turnOn(100, 0 , 255)</code> sets the red element to 100, the green to 0, and the blue to 255.</p>
 <h4 id="awesome.led.turnoff">awesome.LED.<em>turnOff()</em></h4>
 <p>The <code>turnOff()</code> function turns the LED off. This turns off each of the three elements inside the color LED.</p>
 <h4 id="awesome.led.flash">awesome.LED.<em>flash()</em></h4>
 <p>The <code>flash()</code> turns the LED on, waits for a period of time, and then turns the LED off again.</p>
 <p><em>Inputs:</em> the <code>flash()</code> function can take two different sets of inputs:</p>
 <h6 id="color-names-1">Color Names</h6>
-<p>The <code>flash</code> function's first input is a number of milliseconds that it should turn the light on for. This input, <code>millis</code> is an int. Next, it needs to know what color to set the LED to. Just like the <code>awesome.LED.turnOn()</code> function, it can take a color name as an input, like <code>RED</code> or <code>YELLOW</code>. So for example, <code>awesome.LED.flash(1000, RED);</code> would flash the LED red for one second.</p>
+<p>The <code>flash</code> function's first input is a number of milliseconds that it should turn the light on for. This input, <code>millis</code> is an int. Next, it needs to know what color to set the LED to. it can take a color name as an input, just like the <code>awesome.LED.turnOn()</code> function. So for example, <code>awesome.LED.flash(1000, RED);</code> would flash the LED red for one second.</p>
 <h6 id="color-strengths-1">Color Strengths</h6>
-<p>The <code>flash</code> function's first input is the number of milliseconds that it should turn the light on for. This input, <code>millis</code>, is an int. Next, it needs to know what color to set the LED to. Just like the <code>awesome.LED.turnOn()</code> function, it can take a set of three <code>int</code>s that tell it what power to set the red, green, and blue elements to. For example <code>awesome.LED.flash(500, 255, 0, 0);</code> would flash the LED for 500 milliseconds, or a half a second, with red on full power, and green and blue both turned off.</p>
+<p>The <code>flash</code> function has several inputs. The first input is the number of milliseconds that it should turn the light on for. This input, <code>millis</code>, is an int. Next, it needs to know what color to set the LED to. Just like the <code>awesome.LED.turnOn()</code> function, it can take a set of three <code>int</code>s. They tell it what power to set the red, green, and blue elements to. For example <code>awesome.LED.flash(500, 255, 0, 0);</code> would flash the LED for 500 milliseconds, or a half a second. The red element would be on full power, and green and blue would both be turned off.</p>
 <h4 id="awesome.led.ison">awesome.LED.<em>isOn()</em></h4>
 <p>The <code>isOn()</code> function checks to see if the LED is currently turned on.</p>
-<p><em>Returns:</em> it returns a <code>bool</code>, which is true if the LED is currently turned on, and <code>false</code> if it is currently turned off.</p>
+<p><em>Returns:</em> it returns a <code>bool</code>. The <code>bool</code> is <code>true</code> if the LED is currently turned on, and <code>false</code> if it is currently turned off.</p>
 <h4 id="awesome.led.isoff">awesome.LED.<em>isOff()</em></h4>
 <p>The <code>isOff()</code> function checks to see if the LED is currently turned off.</p>
-<p><em>Returns:</em> it returns a <code>bool</code>, which is <code>true</code> if the LED is currently turned off, and <code>false</code> if it is currently turned on.</p>
+<p><em>Returns:</em> it returns a <code>bool</code>. The <code>bool</code> is <code>true</code> if the LED is currently turned off, and <code>false</code> if it is currently turned on.</p>
 				<!-- Disqus -->
 				<div id="disqus_thread"></div>
 			    <script type="text/javascript">
