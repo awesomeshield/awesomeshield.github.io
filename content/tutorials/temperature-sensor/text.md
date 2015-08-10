@@ -13,4 +13,4 @@ The `reading()` function gets a temperature reading using the temperature sensor
 *Returns:* It returns a `float`, which is the temperature in degrees Celsius.
 
 ## Tips
-Normally the thermistor checks the air temperature. But it can check other temperatures. If you put your finger on the thermistor it will read your skin temperature.
+Normally the temperature sensor checks the air temperature. But if you put your finger on the thermistor it will read your skin temperature.
